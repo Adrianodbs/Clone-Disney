@@ -1,0 +1,26 @@
+/* Colocar esse tamanho para auxiliar na utilização da medida Rem (transformando o font size em 10 pixels */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  
+ 
+  color: white;
+
+}
+
+.background-fixed{
+  background: url('../../imgs/background.png') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.wrapper{
+  position: relative;
+}
+

@@ -1,0 +1,125 @@
+.banners{
+  align-items: center;
+  display: flex;
+  padding-top: 9.7rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-slider{
+  display: flex;
+  position: relative;
+}
+
+.banner-slider__item{
+  padding: 0 1rem 3rem;
+  /* pra fazer com que todos os banners respeitem o tamanho do width */
+  flex-shrink: 0;
+  width: 91vw;
+  opacity: .5;
+}
+
+.banner-slider__item.active{
+  opacity: 1;
+}
+
+.banner-slider__link{
+  position: relative;
+  /* Coloca o display block para cobrir a imagem inteira */
+  display: block;
+}
+
+.banner-slider__link::before{
+  content: '';
+  border: .4rem solid rgba(255, 255, 255, 0);
+  border-radius: .5rem;
+  position: absolute;
+  /* para combrir toda a área fazemos... */
+  /* left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0; */
+  /* Basta colocar a propriedade inset*/
+  inset: 0;
+
+  transition: border .3s;
+}
+
+.banner-slider__link:hover::before{
+  border-color:rgba(255, 255, 255, .7);
+}
+
+.banner-slider__cover{
+  border-radius: .5rem;
+  box-shadow: #000 0rem 2rem 3rem -2rem;
+  display: block;
+  width: 100%;
+}
+
+.banner-slider__title{
+  animation: slideLeft 1s;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.banner-slider__title.active {
+  display: block;
+}
+
+.banners .arrow-slider{
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  margin-top: -3rem;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.banners .arrow-slider:hover{
+  opacity: 1;
+}
+
+.banners .arrow-slider--left{
+  padding: 0 3.6rem;
+  left: 0; 
+}
+
+.banners .arrow-slider--right{
+  padding: 0 3.6rem;
+  right: 0rem;
+}
+
+.banners .controls-slider{
+  bottom: 4.6rem;
+  right: 11.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .banner-slider__item{
+    width: 85vw;
+  }
+
+  .banners{
+    padding-top: 8.2rem;
+  }
+
+  .banners .arrow-slider--left{
+    padding: 0 1rem;
+    left: 0; 
+  }
+  
+  .banners .arrow-slider--right{
+    padding: 0 1rem;
+    right: 0;
+  }
+
+  .banners .controls-slider{
+    bottom: 4.2rem;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
