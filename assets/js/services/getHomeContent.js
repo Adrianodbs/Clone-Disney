@@ -1,6 +1,6 @@
 export const getHomeContent = () => {
   return new Promise((resolve, reject) => {
-    fetch('/content/data.json')
+    fetch('/Clone-Disney/content/data.json')
       .then(response => {
         return response.json()
       })
