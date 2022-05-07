@@ -1,17 +1,17 @@
-@import url(../../assets/css/base/_reset.css);
-@import url(../../assets/css/base/_fonts.css);
-@import url(../../assets/css/base/_global.css);
-@import url(../../assets/css/base/_animations.css);
-@import url(../../assets/css/components/__logo.css);
-@import url(../../assets/css/components/_user-profile.css);
-@import url(../../assets/css/components/_arrow-slider.css);
-@import url(../../assets/css/components/_controls-slider.css);
-@import url(../../assets/css/components/_collection.css);
-@import url(../../assets/css/layout/__header.css);
-@import url(../../assets/css/layout/__nav-menu.css);
-@import url(../../assets/css/layout/_user-menu.css);
-@import url(../../assets/css/layout/_footer.css);
-@import url(../../assets/css/pages/home/_banners.css);
+@import url(../../assets/css/base/reset.css);
+@import url(../../assets/css/base/fonts.css);
+@import url(../../assets/css/base/global.css);
+@import url(../../assets/css/base/animations.css);
+@import url(../../assets/css/components/logo.css);
+@import url(../../assets/css/components/user-profile.css);
+@import url(../../assets/css/components/arrow-slider.css);
+@import url(../../assets/css/components/controls-slider.css);
+@import url(../../assets/css/components/collection.css);
+@import url(../../assets/css/layout/header.css);
+@import url(../../assets/css/layout/nav-menu.css);
+@import url(../../assets/css/layout/user-menu.css);
+@import url(../../assets/css/layout/footer.css);
+@import url(../../assets/css/pages/home/banners.css);
 @import url(../../assets/css/pages/home/categories.css);
 
 
