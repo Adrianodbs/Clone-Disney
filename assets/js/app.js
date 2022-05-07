@@ -6,7 +6,7 @@
 // bannerSlider.init()
 // collections.init()
 
-import { getHomeContent } from './services/GetHomeContent.js'
+import { getHomeContent } from './services/getHomeContent.js'
 import Home from './pages/home.js'
 
 getHomeContent()

@@ -1,18 +1,18 @@
-@import url(../../assets/css/base/reset.css);
-@import url(../../assets/css/base/fonts.css);
-@import url(../../assets/css/base/global.css);
-@import url(../../assets/css/base/animations.css);
-@import url(../../assets/css/components/logo.css);
-@import url(../../assets/css/components/user-profile.css);
-@import url(../../assets/css/components/arrow-slider.css);
-@import url(../../assets/css/components/controls-slider.css);
-@import url(../../assets/css/components/collection.css);
-@import url(../../assets/css/layout/header.css);
-@import url(../../assets/css/layout/nav-menu.css);
-@import url(../../assets/css/layout/user-menu.css);
-@import url(../../assets/css/layout/footer.css);
+@import url(./base/reset.css);
+@import url(./base/fonts.css);
+@import url(./base/global.css);
+@import url(./base/animations.css);
+@import url(./components/logo.css);
+@import url(./components/user-profile.css);
+@import url(./components/arrow-slider.css);
+@import url(./components/controls-slider.css);
+@import url(./components/collection.css);
+@import url(./layout/header.css);
+@import url(./layout/nav-menu.css);
+@import url(./layout/user-menu.css);
+@import url(./layout/footer.css);
 
-@import url(../../assets/css/pages/home/categories.css);
+@import url(./pages/home/categories.css);
 
-@import url(../../assets/css/pages/home/banners.css);
+@import url(./pages/home/banners.css);
 
